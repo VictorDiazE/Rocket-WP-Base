@@ -1,0 +1,163 @@
+/*
+==============================
+Page: All
+Section: Navbar
+==============================
+*/
+
+.navbar-main {
+  width:100%;
+}
+.navbar-brand img {
+  width:150px;
+  height:auto;
+}
+.menu-items {
+  list-style:none;
+}
+.menu-items li {
+  margin-bottom:1rem;
+}
+.menu-items li a {
+  color: #232F3D;
+}
+.navbar-transition.scrolled {
+  background-color:#fff;
+  box-shadow:0 0px 2px rgba(0,0,0,.3);
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+.navbar-transition.scrolled .navbar-brand {
+  opacity:1;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+#navbar {
+	background-color: #fff;
+	color:#232F3D;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 100vh;
+	padding-top: 15px;
+	z-index: 99;
+	overflow-y: hidden;
+}
+.logged-admin #navbar {
+  padding-top:40px;
+}
+.top-bar {
+  position:relative;
+  z-index:101;
+}
+.top-bar-include #navbar {
+  padding-top:52px;
+}
+.top-bar-include.logged-admin #navbar {
+  padding-top:80px;
+}
+.navbar-nav {
+  padding-left:45px;
+  padding-right:60%;
+}
+.navbar-icon-menu i {
+  font-size:1.6em;
+}
+.close-menu {
+	position: absolute;
+	right: 45px;
+	top: 0;
+	z-index: 100;
+}
+.logged-admin .close-menu {
+	top: 24px;
+	z-index: 100;
+}
+.top-bar-include .close-menu {
+  top:40px;
+}
+.top-bar-include.logged-admin .close-menu {
+  top:65px;
+}
+
+.close-menu span {
+  font-size:3.5em;
+  line-height:1em;
+}
+.scrolled-items {
+  display:none;
+}
+.navbar-transition.scrolled .initial-header {
+  display:none;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+.navbar-transition.scrolled .scrolled-items {
+  display:block;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.navbar-nav .nav-item:last-child .nav-link {
+  padding-right:0;
+}
+
+/*
+==============================
+Page: All
+Section: Navbar for header with margin top
+==============================
+*/
+
+.margin-top-content .site-content {
+  margin-top:7vh;
+}
+.margin-top-content .navbar-transition {
+  background-color:#fff;
+}
+/*
+==============================
+Navbar - Media Queries
+==============================
+*/
+
+@media (min-width: 992px) {
+  .navbar-brand img {
+    width:200px;
+    height:auto;
+  }
+  .menu-items li a {
+    color: #FFF;
+  }
+  .navbar-transition.scrolled .menu-items li a {
+    color:#232F3D;
+  }
+  #navbar {
+    background-color:transparent;
+    position:relative;
+    height:auto;
+    padding:0;
+  }
+  .menu-items li {
+    margin-bottom:0;
+  }
+  .navbar-transition.scrolled .navbar-brand img {
+    width:150px;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+  }
+  .navbar-nav {
+    padding-left:0;
+    padding-right:0;
+  }
+}

@@ -1,0 +1,57 @@
+/*
+==============================
+Page: All
+Section: Footer
+==============================
+*/
+
+.footer-logo img {
+  width:50%;
+}
+.widgettitle {
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.textwidget p {
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: .5em;
+}
+
+.textwidget p a {
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 500;
+}
+
+ul#menu-extra li a {
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 600;
+}
+
+ul#menu-legal li a {
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.widget.widget_pages ul li a {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+/*
+==============================
+Footer - Media Queries
+==============================
+*/
+
+@media (min-width:992px) {
+  .footer-logo img {
+    width:100%;
+  }
+}

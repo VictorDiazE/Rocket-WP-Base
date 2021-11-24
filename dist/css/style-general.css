@@ -1,0 +1,129 @@
+/*
+==============================
+General Styles
+==============================
+*/
+
+body {
+  color: #4a4a4a;
+  background-color: #fff;
+    &.modal-open {
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+}
+body a,
+body a:hover,
+body a:focus,
+body a:active {
+  text-decoration: none;
+  color: inherit;
+}
+div,
+input,
+textarea,
+button:active,
+button:focus,
+.btn,
+button,
+a[type="button"] {
+    outline: 0;
+}
+.btn.focus,
+.btn:focus {
+    box-shadow: 0 0 0 0;
+}
+ul li,
+ul {
+    margin: 0;
+    padding: 0;
+}
+.wrapper,
+.m-layaout {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.relative {
+    position: relative;
+}
+.grecaptcha-badge {
+  right: -300px !important;
+}
+a:hover {
+    color: inherit;
+}
+.site-footer ul li,
+.site-footer li {
+    list-style: none;
+}
+.z-index-11 {
+    z-index: 11;
+}
+.z-index-21 {
+    z-index: 21;
+}
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index: 10;
+}
+.btn {
+  background-image: none;
+	background-color: transparent;
+  text-align: center;
+  width: auto;
+  border-radius: 0;
+  border-style: solid;
+  font-size: 1em;
+  font-family: 'Barlow', sans-serif;
+}
+.bg-image-regular {
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+.fc-adminbar {
+  font-family:'Quicksand', sans-serif;
+}
+
+/*
+==============================
+General Styles - Media Queries
+==============================
+*/
+
+@media (min-width: 992px) {
+  .wrapper,
+  .m-layaout {
+      padding-left: 7%;
+      padding-right: 7%;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper,
+  .m-layaout {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+@media (min-width: 1400px) {
+  .wrapper,
+  .m-layaout {
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+}
+@media (min-width: 1600px) {
+  .wrapper,
+  .m-layaout {
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+}

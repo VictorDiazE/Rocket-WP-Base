@@ -1,0 +1,57 @@
+/*
+==============================
+Colors
+==============================
+*/
+
+.color-grey {
+  color: #4A4A4A;
+}
+.color-black {
+  color: #000;
+}
+.color-white {
+  color: #fff;
+}
+
+
+/*
+==============================
+Background Colors
+==============================
+*/
+
+.bg-custom-white {
+  background-color: #FFF;
+}
+.bg-black {
+  background-color: #000;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-grey {
+  background-color: #666;
+}
+.bg-light-grey {
+  background-color: #EAEAEA;
+}
+
+/*
+==============================
+Border Colors
+==============================
+*/
+
+.border-blue {
+  border-color: #232F3D;
+}
+.border-black {
+  border-color:#000;
+}
+.border-light-blue {
+  border-color: #8CB4C4;
+}
+.border-white {
+  border-color:#FFF;
+}
